@@ -5,13 +5,13 @@ A web-based interface for controlling a 4 Degree of Freedom (DOF) Robotic Arm. T
 ## Project Structure
 
 ```text
-â”œâ”€â”€ app.py                # Flask application handling web requests and Serial communication.
-â”œâ”€â”€ templates/            # Contains the HTML user interface
-â”‚   â””â”€â”€ index.html        # Main web dashboard for the robotic arm
-â”œâ”€â”€ arduino/              # Arduino sketches for the microcontroller
-â”‚   â”œâ”€â”€ Stage1_ServoTest/      # Script to independently test servo connections
-â”‚   â””â”€â”€ Stage2_SerialControl/  # Main script to parse serial commands from Python/Web
-â””â”€â”€ README.md             # Project documentation
+|-- app.py                # Flask application handling web requests and Serial communication.
+|-- templates/            # Contains the HTML user interface
+|   \-- index.html        # Main web dashboard for the robotic arm
+|-- arduino/              # Arduino sketches for the microcontroller
+|   |-- Stage1_ServoTest/      # Script to independently test servo connections
+|   \-- Stage2_SerialControl/  # Main script to parse serial commands from Python/Web
+\-- README.md             # Project documentation
 ```
 
 ## Features
